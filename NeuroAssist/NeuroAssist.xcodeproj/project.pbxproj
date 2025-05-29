@@ -1,0 +1,1064 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		557C64422DE8BA5900CF1325 /* NeuroAssistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C64412DE8BA5900CF1325 /* NeuroAssistApp.swift */; };
+		557C64442DE8BA5900CF1325 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C64432DE8BA5900CF1325 /* ContentView.swift */; };
+		557C64462DE8BA5A00CF1325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 557C64452DE8BA5A00CF1325 /* Assets.xcassets */; };
+		557C64492DE8BA5A00CF1325 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 557C64482DE8BA5A00CF1325 /* Preview Assets.xcassets */; };
+		557C64532DE8BA5A00CF1325 /* NeuroAssistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C64522DE8BA5A00CF1325 /* NeuroAssistTests.swift */; };
+		557C645D2DE8BA5A00CF1325 /* NeuroAssistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C645C2DE8BA5A00CF1325 /* NeuroAssistUITests.swift */; };
+		557C645F2DE8BA5A00CF1325 /* NeuroAssistUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C645E2DE8BA5A00CF1325 /* NeuroAssistUITestsLaunchTests.swift */; };
+		557C64732DE8BAF800CF1325 /* NeuroAssist Watch App Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 557C64722DE8BAF800CF1325 /* NeuroAssist Watch App Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		557C64782DE8BAF800CF1325 /* NeuroAssist_Watch_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C64772DE8BAF800CF1325 /* NeuroAssist_Watch_AppApp.swift */; };
+		557C647A2DE8BAF800CF1325 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C64792DE8BAF800CF1325 /* ContentView.swift */; };
+		557C647C2DE8BAF900CF1325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 557C647B2DE8BAF900CF1325 /* Assets.xcassets */; };
+		557C647F2DE8BAF900CF1325 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 557C647E2DE8BAF900CF1325 /* Preview Assets.xcassets */; };
+		557C64892DE8BAF900CF1325 /* NeuroAssist_Watch_App_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C64882DE8BAF900CF1325 /* NeuroAssist_Watch_App_Watch_AppTests.swift */; };
+		557C64932DE8BAF900CF1325 /* NeuroAssist_Watch_App_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C64922DE8BAF900CF1325 /* NeuroAssist_Watch_App_Watch_AppUITests.swift */; };
+		557C64952DE8BAF900CF1325 /* NeuroAssist_Watch_App_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C64942DE8BAF900CF1325 /* NeuroAssist_Watch_App_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		557C644F2DE8BA5A00CF1325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 557C64362DE8BA5900CF1325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 557C643D2DE8BA5900CF1325;
+			remoteInfo = NeuroAssist;
+		};
+		557C64592DE8BA5A00CF1325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 557C64362DE8BA5900CF1325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 557C643D2DE8BA5900CF1325;
+			remoteInfo = NeuroAssist;
+		};
+		557C64742DE8BAF800CF1325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 557C64362DE8BA5900CF1325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 557C64712DE8BAF800CF1325;
+			remoteInfo = "NeuroAssist Watch App Watch App";
+		};
+		557C64852DE8BAF900CF1325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 557C64362DE8BA5900CF1325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 557C64712DE8BAF800CF1325;
+			remoteInfo = "NeuroAssist Watch App Watch App";
+		};
+		557C648F2DE8BAF900CF1325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 557C64362DE8BA5900CF1325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 557C64712DE8BAF800CF1325;
+			remoteInfo = "NeuroAssist Watch App Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		557C64982DE8BAF900CF1325 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				557C64732DE8BAF800CF1325 /* NeuroAssist Watch App Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		557C643E2DE8BA5900CF1325 /* NeuroAssist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuroAssist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		557C64412DE8BA5900CF1325 /* NeuroAssistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroAssistApp.swift; sourceTree = "<group>"; };
+		557C64432DE8BA5900CF1325 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		557C64452DE8BA5A00CF1325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		557C64482DE8BA5A00CF1325 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		557C644E2DE8BA5A00CF1325 /* NeuroAssistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuroAssistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		557C64522DE8BA5A00CF1325 /* NeuroAssistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroAssistTests.swift; sourceTree = "<group>"; };
+		557C64582DE8BA5A00CF1325 /* NeuroAssistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuroAssistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		557C645C2DE8BA5A00CF1325 /* NeuroAssistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroAssistUITests.swift; sourceTree = "<group>"; };
+		557C645E2DE8BA5A00CF1325 /* NeuroAssistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroAssistUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		557C646D2DE8BAF800CF1325 /* NeuroAssist Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NeuroAssist Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		557C64722DE8BAF800CF1325 /* NeuroAssist Watch App Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NeuroAssist Watch App Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		557C64772DE8BAF800CF1325 /* NeuroAssist_Watch_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroAssist_Watch_AppApp.swift; sourceTree = "<group>"; };
+		557C64792DE8BAF800CF1325 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		557C647B2DE8BAF900CF1325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		557C647E2DE8BAF900CF1325 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		557C64842DE8BAF900CF1325 /* NeuroAssist Watch App Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NeuroAssist Watch App Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		557C64882DE8BAF900CF1325 /* NeuroAssist_Watch_App_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroAssist_Watch_App_Watch_AppTests.swift; sourceTree = "<group>"; };
+		557C648E2DE8BAF900CF1325 /* NeuroAssist Watch App Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NeuroAssist Watch App Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		557C64922DE8BAF900CF1325 /* NeuroAssist_Watch_App_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroAssist_Watch_App_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		557C64942DE8BAF900CF1325 /* NeuroAssist_Watch_App_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroAssist_Watch_App_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		557C643B2DE8BA5900CF1325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557C644B2DE8BA5A00CF1325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557C64552DE8BA5A00CF1325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557C646F2DE8BAF800CF1325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557C64812DE8BAF900CF1325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557C648B2DE8BAF900CF1325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		557C64352DE8BA5900CF1325 = {
+			isa = PBXGroup;
+			children = (
+				557C64402DE8BA5900CF1325 /* NeuroAssist */,
+				557C64512DE8BA5A00CF1325 /* NeuroAssistTests */,
+				557C645B2DE8BA5A00CF1325 /* NeuroAssistUITests */,
+				557C64762DE8BAF800CF1325 /* NeuroAssist Watch App Watch App */,
+				557C64872DE8BAF900CF1325 /* NeuroAssist Watch App Watch AppTests */,
+				557C64912DE8BAF900CF1325 /* NeuroAssist Watch App Watch AppUITests */,
+				557C643F2DE8BA5900CF1325 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		557C643F2DE8BA5900CF1325 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				557C643E2DE8BA5900CF1325 /* NeuroAssist.app */,
+				557C644E2DE8BA5A00CF1325 /* NeuroAssistTests.xctest */,
+				557C64582DE8BA5A00CF1325 /* NeuroAssistUITests.xctest */,
+				557C646D2DE8BAF800CF1325 /* NeuroAssist Watch App.app */,
+				557C64722DE8BAF800CF1325 /* NeuroAssist Watch App Watch App.app */,
+				557C64842DE8BAF900CF1325 /* NeuroAssist Watch App Watch AppTests.xctest */,
+				557C648E2DE8BAF900CF1325 /* NeuroAssist Watch App Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		557C64402DE8BA5900CF1325 /* NeuroAssist */ = {
+			isa = PBXGroup;
+			children = (
+				557C64412DE8BA5900CF1325 /* NeuroAssistApp.swift */,
+				557C64432DE8BA5900CF1325 /* ContentView.swift */,
+				557C64452DE8BA5A00CF1325 /* Assets.xcassets */,
+				557C64472DE8BA5A00CF1325 /* Preview Content */,
+			);
+			path = NeuroAssist;
+			sourceTree = "<group>";
+		};
+		557C64472DE8BA5A00CF1325 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				557C64482DE8BA5A00CF1325 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		557C64512DE8BA5A00CF1325 /* NeuroAssistTests */ = {
+			isa = PBXGroup;
+			children = (
+				557C64522DE8BA5A00CF1325 /* NeuroAssistTests.swift */,
+			);
+			path = NeuroAssistTests;
+			sourceTree = "<group>";
+		};
+		557C645B2DE8BA5A00CF1325 /* NeuroAssistUITests */ = {
+			isa = PBXGroup;
+			children = (
+				557C645C2DE8BA5A00CF1325 /* NeuroAssistUITests.swift */,
+				557C645E2DE8BA5A00CF1325 /* NeuroAssistUITestsLaunchTests.swift */,
+			);
+			path = NeuroAssistUITests;
+			sourceTree = "<group>";
+		};
+		557C64762DE8BAF800CF1325 /* NeuroAssist Watch App Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				557C64772DE8BAF800CF1325 /* NeuroAssist_Watch_AppApp.swift */,
+				557C64792DE8BAF800CF1325 /* ContentView.swift */,
+				557C647B2DE8BAF900CF1325 /* Assets.xcassets */,
+				557C647D2DE8BAF900CF1325 /* Preview Content */,
+			);
+			path = "NeuroAssist Watch App Watch App";
+			sourceTree = "<group>";
+		};
+		557C647D2DE8BAF900CF1325 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				557C647E2DE8BAF900CF1325 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		557C64872DE8BAF900CF1325 /* NeuroAssist Watch App Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				557C64882DE8BAF900CF1325 /* NeuroAssist_Watch_App_Watch_AppTests.swift */,
+			);
+			path = "NeuroAssist Watch App Watch AppTests";
+			sourceTree = "<group>";
+		};
+		557C64912DE8BAF900CF1325 /* NeuroAssist Watch App Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				557C64922DE8BAF900CF1325 /* NeuroAssist_Watch_App_Watch_AppUITests.swift */,
+				557C64942DE8BAF900CF1325 /* NeuroAssist_Watch_App_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "NeuroAssist Watch App Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		557C643D2DE8BA5900CF1325 /* NeuroAssist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557C64622DE8BA5A00CF1325 /* Build configuration list for PBXNativeTarget "NeuroAssist" */;
+			buildPhases = (
+				557C643A2DE8BA5900CF1325 /* Sources */,
+				557C643B2DE8BA5900CF1325 /* Frameworks */,
+				557C643C2DE8BA5900CF1325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeuroAssist;
+			productName = NeuroAssist;
+			productReference = 557C643E2DE8BA5900CF1325 /* NeuroAssist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		557C644D2DE8BA5A00CF1325 /* NeuroAssistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557C64652DE8BA5A00CF1325 /* Build configuration list for PBXNativeTarget "NeuroAssistTests" */;
+			buildPhases = (
+				557C644A2DE8BA5A00CF1325 /* Sources */,
+				557C644B2DE8BA5A00CF1325 /* Frameworks */,
+				557C644C2DE8BA5A00CF1325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				557C64502DE8BA5A00CF1325 /* PBXTargetDependency */,
+			);
+			name = NeuroAssistTests;
+			productName = NeuroAssistTests;
+			productReference = 557C644E2DE8BA5A00CF1325 /* NeuroAssistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		557C64572DE8BA5A00CF1325 /* NeuroAssistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557C64682DE8BA5A00CF1325 /* Build configuration list for PBXNativeTarget "NeuroAssistUITests" */;
+			buildPhases = (
+				557C64542DE8BA5A00CF1325 /* Sources */,
+				557C64552DE8BA5A00CF1325 /* Frameworks */,
+				557C64562DE8BA5A00CF1325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				557C645A2DE8BA5A00CF1325 /* PBXTargetDependency */,
+			);
+			name = NeuroAssistUITests;
+			productName = NeuroAssistUITests;
+			productReference = 557C64582DE8BA5A00CF1325 /* NeuroAssistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		557C646C2DE8BAF800CF1325 /* NeuroAssist Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557C64A02DE8BAF900CF1325 /* Build configuration list for PBXNativeTarget "NeuroAssist Watch App" */;
+			buildPhases = (
+				557C646B2DE8BAF800CF1325 /* Resources */,
+				557C64982DE8BAF900CF1325 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				557C64752DE8BAF800CF1325 /* PBXTargetDependency */,
+			);
+			name = "NeuroAssist Watch App";
+			productName = "NeuroAssist Watch App";
+			productReference = 557C646D2DE8BAF800CF1325 /* NeuroAssist Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		557C64712DE8BAF800CF1325 /* NeuroAssist Watch App Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557C649F2DE8BAF900CF1325 /* Build configuration list for PBXNativeTarget "NeuroAssist Watch App Watch App" */;
+			buildPhases = (
+				557C646E2DE8BAF800CF1325 /* Sources */,
+				557C646F2DE8BAF800CF1325 /* Frameworks */,
+				557C64702DE8BAF800CF1325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NeuroAssist Watch App Watch App";
+			productName = "NeuroAssist Watch App Watch App";
+			productReference = 557C64722DE8BAF800CF1325 /* NeuroAssist Watch App Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		557C64832DE8BAF900CF1325 /* NeuroAssist Watch App Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557C64A12DE8BAF900CF1325 /* Build configuration list for PBXNativeTarget "NeuroAssist Watch App Watch AppTests" */;
+			buildPhases = (
+				557C64802DE8BAF900CF1325 /* Sources */,
+				557C64812DE8BAF900CF1325 /* Frameworks */,
+				557C64822DE8BAF900CF1325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				557C64862DE8BAF900CF1325 /* PBXTargetDependency */,
+			);
+			name = "NeuroAssist Watch App Watch AppTests";
+			productName = "NeuroAssist Watch App Watch AppTests";
+			productReference = 557C64842DE8BAF900CF1325 /* NeuroAssist Watch App Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		557C648D2DE8BAF900CF1325 /* NeuroAssist Watch App Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557C64A22DE8BAF900CF1325 /* Build configuration list for PBXNativeTarget "NeuroAssist Watch App Watch AppUITests" */;
+			buildPhases = (
+				557C648A2DE8BAF900CF1325 /* Sources */,
+				557C648B2DE8BAF900CF1325 /* Frameworks */,
+				557C648C2DE8BAF900CF1325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				557C64902DE8BAF900CF1325 /* PBXTargetDependency */,
+			);
+			name = "NeuroAssist Watch App Watch AppUITests";
+			productName = "NeuroAssist Watch App Watch AppUITests";
+			productReference = 557C648E2DE8BAF900CF1325 /* NeuroAssist Watch App Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		557C64362DE8BA5900CF1325 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					557C643D2DE8BA5900CF1325 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					557C644D2DE8BA5A00CF1325 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 557C643D2DE8BA5900CF1325;
+					};
+					557C64572DE8BA5A00CF1325 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 557C643D2DE8BA5900CF1325;
+					};
+					557C646C2DE8BAF800CF1325 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					557C64712DE8BAF800CF1325 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					557C64832DE8BAF900CF1325 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 557C64712DE8BAF800CF1325;
+					};
+					557C648D2DE8BAF900CF1325 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 557C64712DE8BAF800CF1325;
+					};
+				};
+			};
+			buildConfigurationList = 557C64392DE8BA5900CF1325 /* Build configuration list for PBXProject "NeuroAssist" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 557C64352DE8BA5900CF1325;
+			productRefGroup = 557C643F2DE8BA5900CF1325 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				557C643D2DE8BA5900CF1325 /* NeuroAssist */,
+				557C644D2DE8BA5A00CF1325 /* NeuroAssistTests */,
+				557C64572DE8BA5A00CF1325 /* NeuroAssistUITests */,
+				557C646C2DE8BAF800CF1325 /* NeuroAssist Watch App */,
+				557C64712DE8BAF800CF1325 /* NeuroAssist Watch App Watch App */,
+				557C64832DE8BAF900CF1325 /* NeuroAssist Watch App Watch AppTests */,
+				557C648D2DE8BAF900CF1325 /* NeuroAssist Watch App Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		557C643C2DE8BA5900CF1325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557C64492DE8BA5A00CF1325 /* Preview Assets.xcassets in Resources */,
+				557C64462DE8BA5A00CF1325 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557C644C2DE8BA5A00CF1325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557C64562DE8BA5A00CF1325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557C646B2DE8BAF800CF1325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557C64702DE8BAF800CF1325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557C647F2DE8BAF900CF1325 /* Preview Assets.xcassets in Resources */,
+				557C647C2DE8BAF900CF1325 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557C64822DE8BAF900CF1325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557C648C2DE8BAF900CF1325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		557C643A2DE8BA5900CF1325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557C64442DE8BA5900CF1325 /* ContentView.swift in Sources */,
+				557C64422DE8BA5900CF1325 /* NeuroAssistApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557C644A2DE8BA5A00CF1325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557C64532DE8BA5A00CF1325 /* NeuroAssistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557C64542DE8BA5A00CF1325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557C645D2DE8BA5A00CF1325 /* NeuroAssistUITests.swift in Sources */,
+				557C645F2DE8BA5A00CF1325 /* NeuroAssistUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557C646E2DE8BAF800CF1325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557C647A2DE8BAF800CF1325 /* ContentView.swift in Sources */,
+				557C64782DE8BAF800CF1325 /* NeuroAssist_Watch_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557C64802DE8BAF900CF1325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557C64892DE8BAF900CF1325 /* NeuroAssist_Watch_App_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557C648A2DE8BAF900CF1325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557C64932DE8BAF900CF1325 /* NeuroAssist_Watch_App_Watch_AppUITests.swift in Sources */,
+				557C64952DE8BAF900CF1325 /* NeuroAssist_Watch_App_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		557C64502DE8BA5A00CF1325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 557C643D2DE8BA5900CF1325 /* NeuroAssist */;
+			targetProxy = 557C644F2DE8BA5A00CF1325 /* PBXContainerItemProxy */;
+		};
+		557C645A2DE8BA5A00CF1325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 557C643D2DE8BA5900CF1325 /* NeuroAssist */;
+			targetProxy = 557C64592DE8BA5A00CF1325 /* PBXContainerItemProxy */;
+		};
+		557C64752DE8BAF800CF1325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 557C64712DE8BAF800CF1325 /* NeuroAssist Watch App Watch App */;
+			targetProxy = 557C64742DE8BAF800CF1325 /* PBXContainerItemProxy */;
+		};
+		557C64862DE8BAF900CF1325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 557C64712DE8BAF800CF1325 /* NeuroAssist Watch App Watch App */;
+			targetProxy = 557C64852DE8BAF900CF1325 /* PBXContainerItemProxy */;
+		};
+		557C64902DE8BAF900CF1325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 557C64712DE8BAF800CF1325 /* NeuroAssist Watch App Watch App */;
+			targetProxy = 557C648F2DE8BAF900CF1325 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		557C64602DE8BA5A00CF1325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		557C64612DE8BA5A00CF1325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		557C64632DE8BA5A00CF1325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeuroAssist/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mike.NeuroAssist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		557C64642DE8BA5A00CF1325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeuroAssist/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mike.NeuroAssist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		557C64662DE8BA5A00CF1325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mike.NeuroAssistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuroAssist.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeuroAssist";
+			};
+			name = Debug;
+		};
+		557C64672DE8BA5A00CF1325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mike.NeuroAssistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuroAssist.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeuroAssist";
+			};
+			name = Release;
+		};
+		557C64692DE8BA5A00CF1325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mike.NeuroAssistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeuroAssist;
+			};
+			name = Debug;
+		};
+		557C646A2DE8BA5A00CF1325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mike.NeuroAssistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeuroAssist;
+			};
+			name = Release;
+		};
+		557C64962DE8BAF900CF1325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "NeuroAssist Watch App";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mike.NeuroAssist-Watch-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		557C64972DE8BAF900CF1325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "NeuroAssist Watch App";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mike.NeuroAssist-Watch-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		557C64992DE8BAF900CF1325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeuroAssist Watch App Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "NeuroAssist Watch App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mike.NeuroAssist-Watch-App.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		557C649A2DE8BAF900CF1325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeuroAssist Watch App Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "NeuroAssist Watch App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mike.NeuroAssist-Watch-App.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		557C649B2DE8BAF900CF1325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mike.NeuroAssist-Watch-App-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuroAssist Watch App Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeuroAssist Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		557C649C2DE8BAF900CF1325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mike.NeuroAssist-Watch-App-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuroAssist Watch App Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeuroAssist Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		557C649D2DE8BAF900CF1325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mike.NeuroAssist-Watch-App-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "NeuroAssist Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		557C649E2DE8BAF900CF1325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mike.NeuroAssist-Watch-App-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "NeuroAssist Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		557C64392DE8BA5900CF1325 /* Build configuration list for PBXProject "NeuroAssist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557C64602DE8BA5A00CF1325 /* Debug */,
+				557C64612DE8BA5A00CF1325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557C64622DE8BA5A00CF1325 /* Build configuration list for PBXNativeTarget "NeuroAssist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557C64632DE8BA5A00CF1325 /* Debug */,
+				557C64642DE8BA5A00CF1325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557C64652DE8BA5A00CF1325 /* Build configuration list for PBXNativeTarget "NeuroAssistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557C64662DE8BA5A00CF1325 /* Debug */,
+				557C64672DE8BA5A00CF1325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557C64682DE8BA5A00CF1325 /* Build configuration list for PBXNativeTarget "NeuroAssistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557C64692DE8BA5A00CF1325 /* Debug */,
+				557C646A2DE8BA5A00CF1325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557C649F2DE8BAF900CF1325 /* Build configuration list for PBXNativeTarget "NeuroAssist Watch App Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557C64992DE8BAF900CF1325 /* Debug */,
+				557C649A2DE8BAF900CF1325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557C64A02DE8BAF900CF1325 /* Build configuration list for PBXNativeTarget "NeuroAssist Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557C64962DE8BAF900CF1325 /* Debug */,
+				557C64972DE8BAF900CF1325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557C64A12DE8BAF900CF1325 /* Build configuration list for PBXNativeTarget "NeuroAssist Watch App Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557C649B2DE8BAF900CF1325 /* Debug */,
+				557C649C2DE8BAF900CF1325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557C64A22DE8BAF900CF1325 /* Build configuration list for PBXNativeTarget "NeuroAssist Watch App Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557C649D2DE8BAF900CF1325 /* Debug */,
+				557C649E2DE8BAF900CF1325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 557C64362DE8BA5900CF1325 /* Project object */;
+}
